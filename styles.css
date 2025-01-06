@@ -1,0 +1,384 @@
+/* Réinitialisation de base */
+body, h1, p, ul, li, a{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style global */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 10;
+  padding: 0;
+}
+
+/* Thème clair (par défaut) */
+body.light-theme {
+  background-color: white;
+  color: black;
+}
+
+/* Thème sombre */
+body.dark-theme {
+  background-color: rgb(26, 24, 24);
+  color: white;
+  .top {
+    border : solid 3px white;
+    color : white;
+    background-color: black;
+  }
+  
+  .top:hover{
+    background-color: white;
+    color: black;
+  }
+
+  #link_form {
+    border : solid 3px white;
+    color : white;
+    background-color: black;
+  }
+  
+  #link_form:hover{
+    background-color: white;
+    color: black;
+  }
+}
+
+
+header {
+  background-color: #808080;
+  color: rgb(255, 255, 255);
+  padding: 15px 20px;
+}
+
+header nav {
+  display: flex;
+  padding : 25px;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 10;
+  padding: 10;
+}
+
+header nav ul li {
+  margin: 10 75px;
+  margin-right : 15px;
+  padding : 15px;
+  text-align: center;
+  justify-content: center;
+}
+
+header nav ul li:hover {
+  background-color: #666;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  font-size: large;
+}
+
+/* Main content */
+main {
+  margin-top : 1%;
+  padding-right : 10%;
+  padding-left : 10%;
+  text-align: center;
+}
+
+
+.top {
+  border : solid 3px black;
+  border-radius : 5px;
+  color : black;
+  padding : 15px;
+  margin: 15px;
+  background-color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.top:hover{
+  background-color: black;
+  color: white;
+}
+
+
+/* Footer */
+footer {
+  background-color: #808080;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+  margin-top : 50px;
+  position: relative;
+}
+
+#logo_iut {
+  max-width: 5%;
+  height: 5%;
+}
+
+/* Bouton dark mode*/
+#theme-toggle {
+  display: inline-block;
+  position : block;
+  top : 10%;
+  left : 75%;
+  margin : 5%;
+  padding: 10px 20px;
+  background-color: #808080;
+  color: white;
+  border: solid 1px black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#theme-toggle:hover {
+  background-color: #666;
+}
+
+
+/*Index*/
+.image_i{
+  width: 25%;
+  padding : 2%;
+  margin-top: 50px;
+  margin-bottom : 25px;
+}
+
+.image_y{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#link_form {
+  border : solid 3px black;
+  border-radius : 5px;
+  color : black;
+  padding : 15px;
+  margin: 15px;
+  background-color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#link_form:hover{
+  background-color: black;
+  color: white;
+}
+
+
+/*Page 1*/
+.image_2004{
+  width : 75%;
+  margin-top : 50px;
+  margin-bottom : 50px;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.image-gallery img {
+  width: 45%;
+  height: auto;
+}
+
+
+/*Page 2*/
+.image_911{
+  width : 75%;
+  margin-top : 50px;
+  margin-bottom : 50px;
+}
+
+#formulaire {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom : 45px;
+  border: solid 1px black;
+  border-radius: 5px; 
+  background-color: #8b8b8b;
+}
+
+#formulaire textarea[name="impression"] {
+  width: 75%;
+  height: auto;
+  box-sizing: border-box;
+  border: solid 1px black;
+  border-radius: 5px; 
+}
+
+#formulaire input[name="prenom"],
+#formulaire input[name="nom"] {
+  box-sizing: border-box;
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-left : 20px;
+}
+
+
+
+/*Page3*/
+.image_R35{
+  width : 75%;
+  margin-top : 50px;
+  margin-bottom : 50px;
+}
+
+/* Style du tableau */
+table {
+  width: 100%;
+  margin: 20px auto;
+  justify-content: center;
+  border-collapse: collapse;
+}
+
+/* Style des cellules de la table */
+th, td {
+  padding: 1rem;
+  border: 2px solid darkred;
+  text-align: center;
+}
+
+/* Style des noms de colonnes */
+th {
+  background-color: darkgrey;
+  font: italic small-caps bold 16px/2 cursive;
+  color: darkred;
+}
+
+/* Style pour mettre les 3 colonnes à droite à la même taille */
+.CTab {
+  width: 15%;
+}
+
+/* Police différentes pour les lignes à gauche du tableau juste pour le plaisir */
+.LTab {
+  font: small-caps bold 20px sans-serif;
+}
+
+/* Style des vidéos */
+video {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid darkred;
+  margin-bottom: 15px;
+}
+
+/* Style du lien pour télécharger la vidéo */
+#vid {
+  margin: 1%;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+
+/* Responsivité */
+@media (max-width: 580px) {
+
+/*Global*/
+  
+  header {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+
+  header nav ul li {
+    width: 100%;
+    border : 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    margin : 15px;
+  }
+
+  header nav ul li a {
+    display: block;
+    align-content: center;
+    width: 100%;
+    padding: 2px;
+  }
+
+  main {
+    padding: 5%;
+    margin: 5%;
+  }
+
+  /*Index*/
+  #theme-toggle {
+    width : 35%;
+  }
+
+  .image_i{
+    width: 100%;
+  }
+
+
+  /*Page2*/
+  .image_911{
+    width : 100%;
+    margin-top : 50px;
+    margin-bottom : 50px;
+  }
+
+  #formulaire {
+    width : 100%;
+  }
+
+  #formulaire textarea[name="impression"] {
+    width: 75%;
+  }
+
+  #formulaire input[name="prenom"] {
+    width : 60%;
+  }
+
+  #formulaire input[name="nom"] {
+  width: 60%;
+}
+
+
+  /*Page3*/
+  table {
+    width: 90%;
+  }
+
+  th, td {
+    padding: 0.5rem;
+  }
+
+
+
+  footer{
+    margin-top : 50px;
+    padding-bottom: 75px;
+  }
+}
