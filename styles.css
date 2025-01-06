@@ -1,14 +1,10 @@
-/* Responsivité */
-
 @media (max-width: 480px) {
-/*Global*/
-  
+
   header {
-    flex-direction: column;
-    align-items: center;
-    display: flex;
+    background-color: aqua;
   }
 
+  /*Global*/
   header nav ul {
     flex-direction: column;
     align-items: center;
@@ -17,11 +13,11 @@
 
   header nav ul li {
     width: 100%;
-    border: 1px solid white;
+    border : 1px solid white;
     border-radius: 5px;
     text-align: center;
     padding: 15px;
-    margin: 15px;
+    margin : 15px;
   }
 
   header nav ul li a {
@@ -38,23 +34,23 @@
 
   /*Index*/
   #theme-toggle {
-    width: 35%;
+    width : 35%;
   }
 
   .image_i{
-    width: 100%;
+    width: 10%;
   }
 
 
   /*Page2*/
   .image_911{
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    width : 100%;
+    margin-top : 50px;
+    margin-bottom : 50px;
   }
 
   #formulaire {
-    width: 100%;
+    width : 100%;
   }
 
   #formulaire textarea[name="impression"] {
@@ -62,11 +58,11 @@
   }
 
   #formulaire input[name="prenom"] {
-    width: 60%;
-    }
+    width : 60%;
+  }
 
   #formulaire input[name="nom"] {
-    width: 60%;
+  width: 60%;
   }
 
 
@@ -82,24 +78,25 @@
 
 
   footer{
-    margin-top: 50px;
+    margin-top : 50px;
     padding-bottom: 75px;
   }
 }
 
-@media (min-width: 481px) {
+@media (min-width : 1000px) {
 /* Réinitialisation */
+
 body, h1, p, ul, li, a{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+  }
 
 /* Style global */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  margin: 10;
+  margin: 10px;
   padding: 0;
 }
 
@@ -113,53 +110,55 @@ body.light-theme {
 body.dark-theme {
   background-color: rgb(26, 24, 24);
   color: white;
-  .top {
-    border: solid 3px white;
-    color: white;
-    background-color: black;
-  }
-  
-  .top:hover{
-    background-color: white;
-    color: black;
-  }
+}
 
-  #link_form {
-    border: solid 3px white;
-    color: white;
-    background-color: black;
-  }
-  
-  #link_form:hover{
-    background-color: white;
-    color: black;
-  }
+body.dark-theme .top {
+  border : solid 3px white;
+  color : white;
+  background-color: black;
+}
+
+body.dark-theme .top:hover{
+  background-color: white;
+  color: black;
+}
+
+body.dark-theme #link_form {
+  border : solid 3px white;
+  color : white;
+  background-color: black;
+}
+
+body.dark-theme #link_form:hover{
+  background-color: white;
+  color: black;
 }
 
 
 header {
   background-color: #808080;
   color: rgb(255, 255, 255);
+  background-color: red;
   padding: 15px 20px;
 }
 
 header nav {
   display: flex;
-  padding: 25px;
+  padding : 25px;
   justify-content: center;
 }
 
 header nav ul {
   display: flex;
   list-style: none;
-  margin: 10;
-  padding: 10;
+  margin: 10px;
+  padding: 10px;
 }
 
 header nav ul li {
-  margin: 10 75px;
-  margin-right: 15px;
-  padding: 15px;
+  margin: 10px 75px;
+  margin-right : 15px;
+  padding : 15px;
   text-align: center;
   justify-content: center;
 }
@@ -180,18 +179,18 @@ header nav ul li a {
 
 /* Main content */
 main {
-  margin-top: 1%;
-  padding-right: 10%;
-  padding-left: 10%;
+  margin-top : 1%;
+  padding-right : 10%;
+  padding-left : 10%;
   text-align: center;
 }
 
 
 .top {
-  border: solid 3px black;
-  border-radius: 5px;
-  color: black;
-  padding: 15px;
+  border : solid 3px black;
+  border-radius : 5px;
+  color : black;
+  padding : 15px;
   margin: 15px;
   background-color: white;
   text-decoration: none;
@@ -210,7 +209,7 @@ footer {
   color: white;
   text-align: center;
   padding: 50px 0;
-  margin-top: 50px;
+  margin-top : 50px;
   position: relative;
 }
 
@@ -222,10 +221,7 @@ footer {
 /* Bouton dark mode*/
 #theme-toggle {
   display: inline-block;
-  position: block;
-  top: 10%;
-  left: 75%;
-  margin: 5%;
+  position : fixed;
   padding: 10px 20px;
   background-color: #808080;
   color: white;
@@ -242,9 +238,9 @@ footer {
 /*Index*/
 .image_i{
   width: 25%;
-  padding: 2%;
+  padding : 2%;
   margin-top: 50px;
-  margin-bottom: 25px;
+  margin-bottom : 25px;
 }
 
 .image_y{
@@ -253,10 +249,10 @@ footer {
 }
 
 #link_form {
-  border: solid 3px black;
-  border-radius: 5px;
-  color: black;
-  padding: 15px;
+  border : solid 3px black;
+  border-radius : 5px;
+  color : black;
+  padding : 15px;
   margin: 15px;
   background-color: white;
   text-decoration: none;
@@ -271,9 +267,9 @@ footer {
 
 /*Page 1*/
 .image_2004{
-  width: 75%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  width : 75%;
+  margin-top : 50px;
+  margin-bottom : 50px;
 }
 
 .image-gallery {
@@ -291,15 +287,15 @@ footer {
 
 /*Page 2*/
 .image_911{
-  width: 75%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  width : 75%;
+  margin-top : 50px;
+  margin-bottom : 50px;
 }
 
 #formulaire {
   width: 75%;
   margin: 0 auto;
-  margin-bottom: 45px;
+  margin-bottom : 45px;
   border: solid 1px black;
   border-radius: 5px; 
   background-color: #8b8b8b;
@@ -320,16 +316,16 @@ footer {
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 15px;
-  margin-left: 20px;
+  margin-left : 20px;
 }
 
 
 
 /*Page3*/
 .image_R35{
-  width: 75%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  width : 75%;
+  margin-top : 50px;
+  margin-bottom : 50px;
 }
 
 /* Style du tableau */
@@ -377,4 +373,6 @@ video {
   margin: 1%;
   text-decoration: none;
   color: black;
+}
+
 }
