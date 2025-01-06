@@ -4,8 +4,6 @@
 /*Global*/
   
   header {
-    background-color: #808080;
-    color: rgb(255, 255, 255);
     flex-direction: column;
     align-items: center;
     display: flex;
