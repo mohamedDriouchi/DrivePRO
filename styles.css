@@ -1,6 +1,6 @@
 /* Responsivité */
-@media (max-width: 480px) {
-
+/* @media (max-width: 480px) {
+ */
 /*Global*/
   
   header {
@@ -66,8 +66,8 @@
     }
 
   #formulaire input[name="nom"] {
-  width: 60%;
-}
+    width: 60%;
+  }
 
 
   /*Page3*/
@@ -87,7 +87,7 @@
   }
 }
 
-
+@media (min-width: 481px) {
 /* Réinitialisation de base */
 body, h1, p, ul, li, a{
   margin: 0;
