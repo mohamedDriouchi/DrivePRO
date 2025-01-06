@@ -4,6 +4,8 @@
 /*Global*/
   
   header {
+    background-color: #808080;
+    color: rgb(255, 255, 255);
     flex-direction: column;
     align-items: center;
     display: flex;
@@ -88,7 +90,7 @@
 }
 
 @media (min-width: 481px) {
-/* Réinitialisation de base */
+/* Réinitialisation */
 body, h1, p, ul, li, a{
   margin: 0;
   padding: 0;
