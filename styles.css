@@ -1,92 +1,3 @@
-/* Responsivité */
-
-@media (max-width: 480px) {
-/*Global*/
-  
-  header {
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-  }
-
-  header nav ul {
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-  }
-
-  header nav ul li {
-    width: 100%;
-    border: 1px solid white;
-    border-radius: 5px;
-    text-align: center;
-    padding: 15px;
-    margin: 15px;
-  }
-
-  header nav ul li a {
-    display: block;
-    align-content: center;
-    width: 100%;
-    padding: 2px;
-  }
-
-  main {
-    padding: 5%;
-    margin: 5%;
-  }
-
-  /*Index*/
-  #theme-toggle {
-    width: 35%;
-  }
-
-  .image_i{
-    width: 100%;
-  }
-
-
-  /*Page2*/
-  .image_911{
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-
-  #formulaire {
-    width: 100%;
-  }
-
-  #formulaire textarea[name="impression"] {
-    width: 75%;
-  }
-
-  #formulaire input[name="prenom"] {
-    width: 60%;
-    }
-
-  #formulaire input[name="nom"] {
-    width: 60%;
-  }
-
-
-  /*Page3*/
-  table {
-    width: 90%;
-  }
-
-  th, td {
-    padding: 0.5rem;
-  }
-
-
-
-  footer{
-    margin-top: 50px;
-    padding-bottom: 75px;
-  }
-}
-
 @media (min-width: 481px) {
 /* Réinitialisation */
 body, h1, p, ul, li, a{
@@ -377,4 +288,93 @@ video {
   margin: 1%;
   text-decoration: none;
   color: black;
+}
+
+/* Responsivité */
+
+@media (max-width: 480px) {
+/*Global*/
+  
+  header {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+
+  header nav ul li {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+  }
+
+  header nav ul li a {
+    display: block;
+    align-content: center;
+    width: 100%;
+    padding: 2px;
+  }
+
+  main {
+    padding: 5%;
+    margin: 5%;
+  }
+
+  /*Index*/
+  #theme-toggle {
+    width: 35%;
+  }
+
+  .image_i{
+    width: 100%;
+  }
+
+
+  /*Page2*/
+  .image_911{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #formulaire {
+    width: 100%;
+  }
+
+  #formulaire textarea[name="impression"] {
+    width: 75%;
+  }
+
+  #formulaire input[name="prenom"] {
+    width: 60%;
+    }
+
+  #formulaire input[name="nom"] {
+    width: 60%;
+  }
+
+
+  /*Page3*/
+  table {
+    width: 90%;
+  }
+
+  th, td {
+    padding: 0.5rem;
+  }
+
+
+
+  footer{
+    margin-top: 50px;
+    padding-bottom: 75px;
+  }
 }
