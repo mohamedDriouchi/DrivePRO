@@ -81,13 +81,6 @@
   }
 }
 
-@media (max-width: 320px) {
-  table {
-    margin-right: 5%;
-    padding: 5%;
-  }
-}
-
 /* Réinitialisation de base */
 body, h1, p, ul, li, a{
   margin: 0;
