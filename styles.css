@@ -123,11 +123,14 @@
     text-align: center;
   }
   
-  /*Index*/
   #theme-toggle {
      width: 35%;
   }
-  
+  #titre_page{
+    font-family: 'Impact';
+  }
+
+/*Index*/
   .image_y {
     display: flex;
     flex-direction: column;
