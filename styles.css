@@ -378,11 +378,10 @@
     margin-left: 2%;
   }
   
-  
   /*Index*/
-  .image_i{
+/*   .image_i{
     max-width: fit-content;
-  }
+  } */
   
   .image_y{
     flex-direction: row;
