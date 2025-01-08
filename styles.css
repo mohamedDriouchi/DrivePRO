@@ -66,7 +66,7 @@
     color: rgb(255, 255, 255);
     width: 100%;
     box-sizing: border-box;
-    padding: 10px auto;
+    padding: 10px;
     align-items: center;
   }
 
@@ -96,7 +96,7 @@
 
   header nav ul li:hover {
     background-color: #666;
-    transition: 0.5s;
+    transition: 1s;
     cursor: pointer;
   }
   
@@ -248,7 +248,7 @@
 
   #formulaire #enregistrer:hover{
     background-color: #666;
-    transition: 0,5s;
+    transition: 1s;
     cursor: pointer;
   }
 
