@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
-<html lang="en">
+  <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ferrari F2004</title>
+  <title>Porsche 911 GT3 RS</title>
   <script src="scripts.js"></script>
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="favicon.png">
 </head>
+
 <body class="light-theme">
   <header>
     <nav>
@@ -22,23 +23,50 @@
   </header>
   <button id="theme_toggle">Changer de thème</button>
   <main>
-    <h1 id="titre_page">Ferrari F2004</h1>
-    <img class="image_2004" src="image_2004_1.png" alt="Vue latérale de la Ferrari F2004">
-    <h2>Surprenante dès ses débuts</h2>
-    <p>La Ferrari F2004, conçue pour la saison 2004 de Formule 1, a marqué les esprits par ses performances dès son introduction. Dotée d’une aérodynamique avancée, elle a dominé la saison en établissant des records de vitesse qui ont tenu plusieurs années.</p>
-    <img class="image_2004" src="image_2004_2.png" alt="Vue avant de la Ferrari F2004">
-    <h2>Une machine à gagner</h2>
-    <p>Cette voiture a permis à Michael Schumacher de remporter son septième titre mondial. L'ingénierie italienne combinée à une stratégie de course impeccable a fait de la F2004 une légende des circuits.</p>
-    <img class="image_2004" src="image_2004_3.png" alt="Spécifications Ferrari F2004">
-    <h2>Spécifications</h2>
-    <p>La Ferrari F2004 est équipée d'un moteur V10 de 3,0 litres, capable de produire jusqu'à 900 chevaux. Grâce à son aérodynamisme exceptionnel et à une ingénierie de précision, elle a dominé la saison 2004 avec 15 victoires sur 18 courses.</p>
-    <div class="image-gallery">
-    <img src="moteurF.png" alt="Moteur Ferrari F2004">
-    <img src="image_pilotes.png" alt="Podium Ferrari F2004">
-    </div>
+    <h1 id="titre_page">Porsche 911 GT3 RS</h1>
+    <p>Performance pure, conçue pour les passionnés de vitesse.</p>
+    <img class="image_911" src="image_911_1.png" alt="Premiere image">
+    <h2>Histoire de la marque</h2>
+    <p>
+      Porsche est une marque de voitures allemande créée en <b>1931</b> par Ferdinand Porsche, à <i>Stuttgart</i>. Au départ, l’entreprise travaillait sur des projets d’ingénierie et a notamment conçu la Volkswagen Coccinelle. <b>En 1948</b>, elle lance sa première voiture, la <i>Porsche 356</i>. Avec le temps, Porsche devient célèbre pour ses voitures de sport, comme la mythique 911, sortie en <b>1964</b>. La marque s’illustre aussi en compétition, surtout aux <i>24 Heures du Mans</i>. Aujourd’hui, elle combine tradition et modernité avec des modèles électriques, comme la <i>Taycan</i>, tout en gardant son image de luxe et de performance.
+    </p>
+    <img class="image_911" src="image_911_2.png" alt="Deuxieme image">
+    <h2>Un véhicule d'exception</h2>
+    <p>
+      La <b><i>Porsche 911 GT3 RS</i></b> est une version ultra-performante de la célèbre <i>911</i>, conçue pour offrir des sensations proches de la course automobile. Dotée d’un moteur atmosphérique <i>6 cylindres à plat de 4,0 litres</i>, elle développe plus de 500 chevaux et peut atteindre des vitesses impressionnantes, tout en offrant une réactivité exceptionnelle. Conçue pour les circuits, elle se distingue par son châssis optimisé, son aérodynamisme avancé avec un énorme aileron arrière, et ses matériaux légers comme le carbone. Malgré son orientation sportive, elle reste homologuée pour la route, offrant une expérience de conduite unique aux amateurs de vitesse et de précision.
+    </p>
+    <img class="image_911" src="image_911_3.png" alt="Deuxieme image">
+
+    <form id="formulaire">
+      <br>
+      <p id="titre_form"><strong>Formulaire</strong></p>
+      <br>
+      <label name="prenom" for="prenom">Prenom :</label>
+      <input type="text" id="prenom" name="prenom" placeholder="ex: Xavier">
+      <br><br>
+
+      <label name="nom" for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" placeholder="ex: Dupond">
+      <br><br>
+      
+      <div id="radio">
+        <label name="profil">Profil :</label>
+
+        <input type="radio" id="Professeur" name="profil" value="Professeur">
+        <label for="Professeur">Professeur</label>
+  
+        <input type="radio" id="Eleve" name="profil" value="Eleve">
+        <label for="Eleve">Eleve</label>
+      </div>
+
+      <textarea name="impression" rows="8" cols="50" placeholder="Vos avis sur le site..."></textarea>
+      <br>
+      <input id="enregistrer" type="submit" value="Enregistrer">
+    </form>
     <br>
-    <a href="#" class="top">Haut de page</a>
+  <a href="#" class="top">Haut de page</a>
   </main>
+  
   <footer>
     <img src="iut_logo.png" alt="Logo IUT">
   </footer>
