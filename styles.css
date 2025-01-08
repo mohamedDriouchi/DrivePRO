@@ -20,7 +20,7 @@
   
   /* Thème sombre */
   body.dark-theme {
-    background-color: black;
+    background-color: rgb(26, 24, 24);
     color: white;
     }
   
@@ -185,7 +185,7 @@
   
   #link_form {
     border: solid 3px black;
-    border-radius: 5px;
+    border-radius : 5px;
     color: black;
     padding: 15px;
     margin: 10% auto;
