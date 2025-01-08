@@ -374,24 +374,23 @@
   
   /*Index*/
   #image_i1 {
-    width: 50%;
+/*     width: 50%; */
     margin: auto;
   }
 
   #image_i2 {
-    width: 50%;
+/*     width: 50%; */
     margin: auto;
   }
 
   #image_i3 {
-    width: 50%;
+/*     width: 50%; */
     margin: auto;
   }
-
-  
+    
   .image_y{
     flex-direction: row;
-/*     align-items: center; */
+    align-items: center;
   }
   
   /*Page 1*/
