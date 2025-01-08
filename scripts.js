@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Changer le thème
 document.getElementById('theme_toggle').addEventListener('click', function() {
-  let currentTheme = document.body.classList.contains('dark-theme') ? 'dark-theme' : 'light-theme';
+  let currentTheme = document.body.classList.contains('dark-theme') ? 'dark-theme': 'light-theme';
   let newTheme = currentTheme === 'dark-theme' ? 'light-theme' : 'dark-theme';
   applyTheme(newTheme);
   localStorage.setItem('theme', newTheme);
