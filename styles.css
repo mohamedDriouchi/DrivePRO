@@ -45,7 +45,7 @@
       background-color: white;
       color: black;
   }
-
+  /*Bouton thème sombre*/
   #theme_toggle {
     margin-top: 5%;
     margin-left: 5%;
@@ -60,7 +60,7 @@
     background-color: #666;
     cursor: pointer;
   }
-
+/*Barre de navigation*/
   header {
     background-color: #808080;
     color: rgb(255, 255, 255);
@@ -100,6 +100,7 @@
     cursor: pointer;
   }
   
+  /*Bouton retour en haut*/
   .top {
     border: solid 3px black;
     border-radius: 5px;
@@ -123,6 +124,7 @@
     text-align: center;
   }
   
+  /*Bouton mode sombre*/
   #theme-toggle {
      width: 35%;
   }
@@ -136,7 +138,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-/*     margin: 0 10%; */
   }
 
   #image_i1 {
@@ -179,6 +180,7 @@
     margin-bottom: 50px;
   }
 
+  /*Formulaire page 2*/
   #formulaire {
     width: 100%;
     margin-bottom: 45px;
@@ -186,7 +188,7 @@
     border-radius: 5px; 
     background-color: #8b8b8b;
   }
-  
+  /*Lien du formulaire*/
   #link_form {
     border: solid 3px black;
     border-radius : 5px;
@@ -202,7 +204,8 @@
     background-color: black;
     color: white;
   }
-
+  
+  /*Elements du formulaire*/
   #titre_form {
     text-align: center;
   }
@@ -374,15 +377,18 @@
   
   /*Index*/
   #image_i1 {
-    margin: auto;
+    width: 30%;
+    margin: 0 10px;
   }
 
   #image_i2 {
-    margin: auto;
+    width: 30%;
+    margin: 0 10px;
   }
 
   #image_i3 {
-    margin: auto;
+    width: 30%;
+    margin: 0 10px;
   }
     
   .image_y{
