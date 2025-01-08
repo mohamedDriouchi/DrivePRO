@@ -379,9 +379,9 @@
   }
   
   /*Index*/
-/*   .image_i{
-    max-width: fit-content;
-  } */
+  .image_i{
+    margin: auto;
+  }
   
   .image_y{
     flex-direction: row;
