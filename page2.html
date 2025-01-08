@@ -19,7 +19,7 @@
       </ul>
     </nav>
   </header>
-  <button id="theme-toggle">Changer de thème</button>
+  <button id="theme_toggle">Changer de thème</button>
   <main>
     <h1>Porsche 911 GT3 RS</h1>
     <p>Performance pure, conçue pour les passionnés de vitesse.</p>
@@ -35,34 +35,36 @@
     </p>
     <img class="image_911" src="https://urlr.me/6GVw4r" alt="Deuxieme image">
 
-    <form id="formulaire" action="https://formspree.io/f/xpwwojog" method="POST">
+    <form id="formulaire">
       <br>
-      <p><strong>Formulaire</strong></p>
+      <p id="titre_form"><strong>Formulaire</strong></p>
       <br>
-      <label for="prenom">Prenom :</label>
+      <label name="prenom" for="prenom">Prenom :</label>
       <input type="text" id="prenom" name="prenom" placeholder="ex: Xavier">
       <br><br>
 
-      <label for="nom">Nom :</label>
+      <label name="nom" for="nom">Nom :</label>
       <input type="text" id="nom" name="nom" placeholder="ex: Dupond">
       <br><br>
+      
+      <div id="radio">
+        <label name="profil">Profil :</label>
 
-      <label>Profil :</label>
-      <input type="radio" id="Professeur" name="profil" value="Professeur">
-      <label for="Professeur">Professeur</label>
-
-      <input type="radio" id="Eleve" name="profil" value="Eleve">
-      <label for="Eleve">Eleve</label><br><br>
+        <input type="radio" id="Professeur" name="profil" value="Professeur">
+        <label for="Professeur">Professeur</label>
+  
+        <input type="radio" id="Eleve" name="profil" value="Eleve">
+        <label for="Eleve">Eleve</label>
+      </div>
 
       <textarea name="impression" rows="8" cols="50" placeholder="Vos avis sur le site..."></textarea>
       <br>
-      <input type="submit" value="Enregistrer">
-      <br>
-      <br>
+      <input id="enregistrer" type="submit" value="Enregistrer">
     </form>
     <br>
-    <a href="#" class="top">Haut de page</a>
+  <a href="#" class="top">Haut de page</a>
   </main>
+  
   <footer>
     <img src="iut_logo.png" alt="Logo IUT">
   </footer>
