@@ -374,21 +374,19 @@
   
   /*Index*/
   #image_i1 {
-/*     width: 50%; */
     margin: auto;
   }
 
   #image_i2 {
-/*     width: 50%; */
     margin: auto;
   }
 
   #image_i3 {
-/*     width: 50%; */
     margin: auto;
   }
     
   .image_y{
+    display: flex;
     flex-direction: row;
     align-items: center;
   }
