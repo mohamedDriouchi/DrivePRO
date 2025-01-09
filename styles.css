@@ -293,7 +293,11 @@
     border: 5px solid darkred;
     margin-bottom: 15px;
   }
-  
+
+  .image_R35{
+    width: 25%;
+  }
+
   /* Footer */
   footer {
     background-color: #808080;
