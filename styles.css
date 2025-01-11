@@ -210,14 +210,12 @@
     text-align: center;
   }
 
-  #formulaire label[name="prenom"],
-  #formulaire label[name="nom"] {
+  #formulaire #nom #prenom {
     display: block;
     text-align: center;
   }
 
-  #formulaire input[name="prenom"],
-  #formulaire input[name="nom"] {
+  #formulaire input #nom #prenom {
     border: solid 2px black;
     border-radius: 5px;
     padding: 10px;
